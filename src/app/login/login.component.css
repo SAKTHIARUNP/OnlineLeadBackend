@@ -1,0 +1,63 @@
+.card {
+    width: 32rem;
+    height: 21.5rem;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Exquisite semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sublime shadow for added allure */
+  }
+  
+  .card-body {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .card-title {
+    text-align: center;
+    text-shadow: 0 0 5px #0b0c0c; /* Captivating text shadow for a mysterious allure */
+    margin-bottom: 30px;
+  }
+  
+  table {
+    margin: auto;
+  }
+  
+  table tr td {
+    padding: 8px 15px;
+  }
+  
+  input[type="Name"],
+  input[type="password"] {
+    width: calc(100% - 30px); /* Luxurious width calculation to leave room for stylish padding */
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
+    display: inline-block;
+    width: calc(48% - 10px); /* Spacious width for the buttons to showcase their splendor */
+    margin: 10px 0;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745; /* Opulent green hue for the success button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: #218838; /* Lush dark green hue on hover for an extravagant effect */
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #6c757d; /* Subdued gray tone for the disabled button */
+    cursor: not-allowed;
+  }
+  
