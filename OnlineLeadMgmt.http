@@ -1,0 +1,6 @@
+@OnlineLeadMgmt_HostAddress = http://localhost:5082
+
+GET {{OnlineLeadMgmt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
