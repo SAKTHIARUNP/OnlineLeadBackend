@@ -23,7 +23,7 @@ export class LeadViewComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    //const leadId = +this.route.snapshot.paramMap.get('leadId')!;
+    const leadId = +this.route.snapshot.paramMap.get('leadId')!;
     this.loadLead();
   }
 

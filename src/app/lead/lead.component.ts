@@ -28,7 +28,7 @@ export class LeadComponent implements OnInit {
       mobile: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       address: ['', Validators.required],
-      interestedProducts: ['', Validators.required] // Store as a string for input
+      interestedProducts: ['', Validators.required], // Store as a string for input
     });
   }
 
@@ -71,7 +71,7 @@ export class LeadComponent implements OnInit {
   }
 
   AddUser(leadForm: any) {
-    this.router.navigate(['login']);
+    
     let lead: Lead = {
       id: leadForm.value.id,
       name: leadForm.value.name,
@@ -84,6 +84,7 @@ export class LeadComponent implements OnInit {
         throw new Error('Function not implemented.');
       }
     };
+    this.router.navigate(['login']);
 
     this.authService.AddUsers(lead).subscribe({
       next: (response) => this.router.navigate(['login']),
