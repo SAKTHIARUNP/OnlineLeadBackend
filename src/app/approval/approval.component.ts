@@ -33,7 +33,7 @@ export class ApprovalComponent implements OnInit {
 
   loadLead(): void {
     this.leadedit.getAllLeads().subscribe({
-     next: (resp: any) => {this.allLead=resp;    },
+     next: (resp: any) => {this.lead=resp;},
       error :(err: any)=> console.error('Error loading lead:')
   });
   }

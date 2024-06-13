@@ -80,6 +80,7 @@ export class LeadComponent implements OnInit {
       address: leadForm.value.address,
       interestedProducts: leadForm.value.interestedProducts,
       
+      
       getAllLeads: function (): unknown {
         throw new Error('Function not implemented.');
       }

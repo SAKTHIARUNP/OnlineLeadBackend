@@ -4,8 +4,16 @@
     <form #myform1="ngForm" (ngSubmit)="addvalidation(myform1)">
       <table style="margin: auto;">
         <tr>
+          <td><h5>UserId</h5></td>
+          <td><input type="Id" name="Id" id="Id" ngModel required #myId="ngModel"></td>
+        </tr>
+        <tr>
           <td><h5>Username</h5></td>
           <td><input type="Name" name="Name1" id="Name" ngModel required #myEmail="ngModel"></td>
+        </tr>
+        <tr>
+          <td><h5>Role</h5></td>
+          <td><input type="Role" name="Role" id="Role" ngModel required #myRole="ngModel"></td>
         </tr>
         <tr>
           <td><h5>Password</h5></td>
